@@ -1,0 +1,89 @@
+html {
+    background: linear-gradient(to bottom,  rgba(242,242,191,0.65) 0%,rgba(0,0,0,1) 100%); /* W3C */
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, Arial;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.back-face {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.card {
+    line-height: 350px;
+    background: #310272;
+    //box-shadow: 0 0 50px -10px rgba(0,0,0, .75);
+}
+
+.card-side-right {
+    background: #A387BF;
+    text-align: center;
+    color: #310272;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 52px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.card-side-left {
+    background-color: hsl(270, 54%, 36%);
+    transition: background-color .5s;
+    cursor: pointer;
+    color: hsl(270, 54%, 36%);
+    text-align: center;
+    line-height: 52px;
+    transition: color .5s;
+}
+
+.card-side-left.focus {
+    color: #fff;
+}
+
+.card-side-left.focus:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: 'X';
+    color: #fff;
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+}
+
+.card-side-left:hover {
+    background-color: hsl(270, 54%, 50%);
+}
+
+.back-button {
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50%;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    z-index: 10;
+}
+
+.info {
+    line-height: 1.8em;
+    font-size: 1.2rem;
+    padding: 30px 20px;
+    font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.info-scroller {
+    box-shadow: 0 0 40px -15px rgba(0,0,0,.5);
+    border-radius: 10px;
+    position: absolute;
+}
+

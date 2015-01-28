@@ -1,0 +1,37 @@
+{
+  "name": "full-stack",
+  "description": "Marketing Site for Full Stack NH.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bmatto/full-stack",
+  "authors": [
+    {
+      "name": "Byron Matto",
+      "url": "http://github.com/bmatto/"
+    }
+  ],
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "famo.us"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "almond": "~0.2.9",
+    "famous-polyfills": "~0.3.0",
+    "famous": "0.3.4",
+    "react": "~0.12.2",
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.3"
+  }
+}

@@ -1,0 +1,31 @@
+[
+	{
+		"level" : 0,
+		"label" : "Database",
+		"description" : "At Fullstack NH we love our DB obsessed brethren.  Weather you love or hate Mongo, Redis, Relational Databases or would rather write to a stone tablet - we want to know about it!  Come listen, ever better yet Talk about your exerpiences and preferences as they relate to \"Databases\""
+	},
+	{
+		"level" : 1,
+		"label" : "Back End",
+		"description" : "Do you think everyone hating on PHP is just haters hating?  Is OO programming overhyped and ill-conceived? Should we all be writing Haskel and copiling to javascript?  How awful IS javascript really? \n\n Fullstack NH thinks you are right on the money, although you're actually wrong and we should be writing web servers from scratch in Ruby.  Think you know better!? or just want to enjoy the sound of other people suffereing the same scaling fate that you are?  Come to our monthly meetup and be a part of the Fullstack community."
+	},
+	{
+		"level" : 2,
+		"label" : "Front End",
+		"description" : "Angular, React, Backbone, Ember ... what is clear is that all apps should be single page apps written purely in Javascript - or at least coffee, ok Haskel.  Sass, Less, Grunt, Gulp, AMD, Common - we've all read the intro marketing copy on their websites too! Do you have an actual understanding of what these things do, how they're useful and when we should use them?  We'de love to know what you think. \n\n  Fullstack NH is totally down with all that kick ass rock star tech.  Also we think the <blink> tag was the totes Nicholas Cage ... doge."
+	},
+	{
+		"level" : 3,
+		"label" : "SEO / Copy",
+		"description" : "We all know that copywirting and marketing is secondary to the point right???  Monkies on a typewriter can come up with all that wiz-bang content.  Disagree? Please come and learn us all on the art of copy.  Teach the neck-beards why their perfectly sculpted lines of functional code goes nowhere without something to consume. \n\n  Did we just group SEO and Copy int the same pizza box of the stack - yup.  We desperately need you to come and be a part of Fullstack NH becuase otherwise our foolish view of the world will continue."
+	},
+	{
+		"level" : 4,
+		"label" : "Tooling",
+		"description" : "Emacs is better than vim is better than sublime text is better than your stupid slow IDE.  Slack, Basecamp, JIRA, Pivotal Tracker - how does your team do agile incorrectly?  Travis CI or Jenkins, should we just give up and go back to pushing things manually with FTP? \n\n  Fullstack NH used an email thread and a google survey to try and stich this thing together.  What would have been a better approach? What are your PMs doing right, doing wrong?  We would love to hear about it."
+	}
+]
+
+
+
+
